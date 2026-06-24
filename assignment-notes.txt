@@ -1,0 +1,227 @@
+STUDENT COURSE ENROLLMENT FORM
+
+EXPLANATION OF HTML TAGS AND ATTRIBUTES
+
+1. <!DOCTYPE html>
+
+This declaration tells the browser that the document is written in HTML5.
+
+2. <html lang="en">
+
+This is the root element of the HTML page.
+Attribute:
+
+lang="en" indicates that the language of the webpage is English.
+
+3. <head>
+
+The head section contains information about the webpage that is not displayed directly on the page.
+
+4. <meta charset="UTF-8">
+
+Specifies the character encoding of the webpage so that text is displayed correctly.
+
+5. <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+Makes the webpage responsive on different screen sizes and devices.
+
+6. <title>
+
+Sets the title of the webpage that appears on the browser tab.
+
+7. <link rel="stylesheet" href="style.css">
+
+Links the external CSS file with the HTML page.
+
+Attributes:
+
+ rel="stylesheet" specifies that the linked file is a stylesheet.
+ href="style.css" provides the path of the CSS file.
+
+8. <body>
+
+Contains all the visible content of the webpage.
+
+9. <div class="container">
+
+Used to group related elements together.
+
+Attribute:
+
+ class="container" is used for applying CSS styles to the form container.
+
+10. <h2>
+
+Displays the heading:
+"Student Course Enrollment Form"
+
+11. <form>
+
+Creates a form that allows users to enter and submit information.
+
+12. <label>
+
+Provides a descriptive text for an input field.
+
+Example: <label for="name">Full Name</label>
+
+Attribute:
+
+ for="name" connects the label with the input element having id="name".
+
+13. <input>
+
+Used to create different types of input fields.
+
+Examples used in this project:
+
+type="text"
+  Accepts normal text input.
+
+type="email"
+  Accepts email addresses and performs basic validation.
+
+type="tel"
+  Used for entering phone numbers.
+
+type="date"
+  Opens a calendar for date selection.
+
+type="radio"
+  Allows selecting one option from multiple choices.
+
+type="file"
+  Allows uploading a file from the computer.
+
+Attributes used:
+
+id
+  Provides a unique identifier for an element.
+
+placeholder
+  Displays hint text inside the input field.
+
+required
+  Makes the field mandatory before form submission.
+
+name
+  Used to group radio buttons together.
+
+14. <div class="radio-group">
+
+Groups the gender radio buttons together for styling purposes.
+
+15. <select>
+
+Creates a dropdown menu from which users can select a course.
+
+Attribute:
+
+id="course" uniquely identifies the dropdown.
+
+16. <option>
+
+Represents an item inside the dropdown list.
+
+Options used:
+
+Web Development
+Data Science
+Cyber Security
+Cloud Computing
+
+17. <textarea>
+
+Creates a multi-line text box.
+
+Attribute:
+
+rows="4" specifies the visible height of the text area.
+
+18. <button type="submit">
+
+Creates a submit button.
+
+Attribute:
+
+type="submit" submits the form when clicked.
+
+Button Text:
+Enroll Now
+
+---
+
+EXPLANATION OF CSS PROPERTIES
+
+1. body
+   Applies styling to the entire webpage.
+
+Properties:
+
+ font-family: Sets the font style.
+ background: Creates a gradient background.
+ display: flex: Uses Flexbox layout.
+ justify-content: center: Centers content horizontally.
+ align-items: center: Centers content vertically.
+ min-height: 100vh: Makes the page occupy the full screen height.
+
+2. .container
+   Styles the main form container.
+
+Properties:
+
+ background: white
+ width: 450px
+ padding: 30px
+ border-radius: 15px
+ box-shadow: Adds shadow effect
+
+3. h2
+   Styles the heading.
+
+Properties:
+
+ text-align: center
+ color: #333
+
+4. label
+   Styles all labels.
+
+Properties:
+
+ display: block
+ margin-top
+ margin-bottom
+ font-weight: bold
+
+5. input, select, textarea
+   Applies common styling to form fields.
+
+Properties:
+
+ width: 100%
+ padding: 10px
+ border
+ border-radius
+ margin-bottom
+
+6. button
+   Styles the submit button.
+
+Properties:
+
+ width: 100%
+ padding
+ background color
+ color
+ border: none
+ border-radius
+ cursor: pointer
+ font-size
+
+7. button:hover
+   Changes the button background color when the mouse pointer is placed over it.
+
+8. .radio-group
+   Adds spacing below the radio button section using margin-bottom.
+
