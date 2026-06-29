@@ -175,7 +175,6 @@ Attribute:
 Button Text:
 Enroll Now
 
----
 
 CSS PROPERTIES USED
 
